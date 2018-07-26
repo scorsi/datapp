@@ -2,8 +2,9 @@
 
 export default class HelloWorld {
   greetings (name: string): string {
-    return `greeting ${name}`
+    return `greetings ${name}`
+  }
+  test (): void {
+    console.log('hey')
   }
 }
-
-console.log(new HelloWorld().greetings('toto'))
