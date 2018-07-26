@@ -1,0 +1,10 @@
+{
+  "name": "datapp-core",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/scorsi/datapp",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src -d lib -s true"
+  }
+}
